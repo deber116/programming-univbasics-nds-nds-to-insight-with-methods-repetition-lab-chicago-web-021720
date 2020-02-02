@@ -46,8 +46,8 @@ def total_gross(source)
   # returned by directors_totals, and add it to a running total. When done,
   # return the total
   director_gross_hash = directors_totals(source)
-  pp director_gross_hash
-  director_array = list_of_directors(director_gross_hash)
+  pp source
+  #director_array = list_of_directors(director_gross_hash)
   director_index = 0
   total = 0
   while director_index < director_array.count do
